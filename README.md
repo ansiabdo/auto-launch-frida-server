@@ -37,7 +37,7 @@ apt-get update
 apt-get install -y git curl wget sed xz-utils command-not-found
 ```
 ```
-git clone https://github.com/darklotuskdb/auto-launch-frida-server.git && cd auto-launch-frida-server && chmod +x autoFrida.sh
+git clone https://github.com/ansiabdo/auto-launch-frida-server.git && cd auto-launch-frida-server && chmod +x autoFrida.sh
 ```
 ```
 ./autoFrida.sh
