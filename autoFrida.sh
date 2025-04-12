@@ -35,6 +35,12 @@ arc="$a"
 fi
 
 
+if [[ "$a" == "i686" ]] ; then
+    arc="x86_64"
+else
+arc="$a"
+fi
+
 
 echo -e "\n\n\e[32m[+] Downloading latest Frida server\e[0m"
             
