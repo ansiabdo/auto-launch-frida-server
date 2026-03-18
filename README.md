@@ -31,8 +31,8 @@ pkg upgrade
 pkg install root-repo
 ```
 Note: If the above command does not work then select the root repo manually via inbuild Termux command i.e ``` termux-change-repo ``` and re-run the above command. 
-```
 -->
+```
 apt-get update
 ```
 ```
